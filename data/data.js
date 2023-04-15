@@ -74,16 +74,16 @@ export const skillsData = [
         nameSkill: "JavaScript"
     },
     {
-        img: "assets/c-program-icon.svg",
-        nameSkill: "C"
-    },
-    {
         img: "assets/html-icon.svg",
         nameSkill: "HTML"
     },
     {
         img: "assets/css-icon.svg",
         nameSkill: "CSS"
+    },
+    {
+        img: "assets/c-program-icon.svg",
+        nameSkill: "C"
     },
     {
         img: "assets/mysql-icon.svg",
