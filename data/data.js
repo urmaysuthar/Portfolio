@@ -1,31 +1,22 @@
 
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// HERE ALL THE DATA FROM THE WEB PAGE WILL BE INSERTED
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-//=========================================
-// INTRODUCTION
-//=========================================
 export const introductionData = {
     // Hi, my name is....
-    yourName: "Your Name", // Insert your name
+    yourName: "Urmay Suthar", 
     socialNetwork: [
         {
             icon: "fa fa-envelope-o",  // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Email",  // label name
-            url: "#"  //  url of the Social Network
+            url: "https://mail.google.com/mail/?view=cm&source=mailto&to=[urmay.suthar0100@gmail.com]"  //  url of the Social Network
         },
         {
             icon: "fa fa-linkedin-square", // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Linkedin",
-            url: "#"
+            url: "https://www.linkedin.com/in/urmaysuthar/"
         },
         {
             icon: "fa fa-github-alt",   // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Github",
-            url: "#"
+            url: "https://github.com/urmaysuthar"
         }
 
 
@@ -70,23 +61,39 @@ export const aboutMeData = {
 //=========================================
 export const skillsData = [
 
-
-    {
-        img: "assets/python.svg",  // card image  > insert the svg image in the assets folder
-        nameSkill: "Python"      //  card name
-    },
     {
         img: "assets/java.svg",
         nameSkill: "Java"
     },
     {
-        img: "assets/js.svg",
-        nameSkill: "JavaScript"
+        img: "assets/python.svg",  // card image  > insert the svg image in the assets folder
+        nameSkill: "Python"      
     },
     {
         img: "assets/js.svg",
         nameSkill: "JavaScript"
+    },
+    {
+        img: "assets/c-program-icon.svg",
+        nameSkill: "C"
+    },
+    {
+        img: "assets/html-icon.svg",
+        nameSkill: "HTML"
+    },
+    {
+        img: "assets/css-icon.svg",
+        nameSkill: "CSS"
+    },
+    {
+        img: "assets/mysql-icon.svg",
+        nameSkill: "SQL"
+    },
+    {
+        img: "assets/git-icon.svg",
+        nameSkill: "Git"
     }
+
 
 ]
 //=========================================
@@ -94,10 +101,10 @@ export const skillsData = [
 //=========================================
 export const projectsData = [
     {
-        title: "PROJECT TITLE",    // card image  > insert the svg image in the assets folder
+        title: "Code Breaker Multiplayer Game",    // card image  > insert the svg image in the assets folder
         describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
         url: "#",  // url of the Github repository
-        img: "assets/project1.jpg"  //image Project
+        img: "assets/code-breaker.jpg"  //image Project
     },
     {
         title: "PROJECT TITLE",
