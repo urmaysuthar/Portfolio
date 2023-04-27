@@ -50,7 +50,7 @@ export const aboutMeData = {
     title: "About Me",
     description: "Hello, my name is Urmay and I'm a Computer Science student that is interested in Software Engineering. I was drawn into this industry because I enjoy solving problems and making something tangible using code. So far, I've mastered a few programming languages, including Java, HTML, CSS, and JavaScript and more. Making CPU Algorithms is one of my favourite projects. It actually helped me improve my C abilities and challenged me to solve a problem using a new language. I'm constantly attempting to enhance my technical skills, and right now I'm concentrating on mastering the languages I know as well as learning new languages and frameworks.",
     titleURL: "View Resume",
-    urlCV: "https://drive.google.com/file/d/156TI4vDFe2T8O8SB4h64OBsil6joBewQ/view?usp=share_link"
+    urlCV: "https://drive.google.com/file/d/1L0lpXrSJ1Ke5IJjArao_TUtXVjW58Jk5/view?usp=share_link"
 }
 
 
@@ -92,7 +92,12 @@ export const skillsData = [
     {
         img: "assets/git-icon.svg",
         nameSkill: "Git"
+    },
+    {
+        img: "assets/firebase-svgrepo-com.svg",
+        nameSkill: "Firebase"
     }
+    
 
 
 ]
