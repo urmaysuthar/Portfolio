@@ -158,9 +158,6 @@ function render() {
     }).join("");
 
 
-
-
-
 }
 
 render();

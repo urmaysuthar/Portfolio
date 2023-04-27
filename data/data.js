@@ -107,19 +107,19 @@ export const skillsData = [
 export const projectsData = [
     {
         title: "Code Breaker Multiplayer Game",    // card image  > insert the svg image in the assets folder
-        describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
+        describe: "Code Breaker is an exciting and interactive web-based game that I developed as a project using advanced technologies such as HTML, CSS, JavaScript, and jQuery. The game invites players to use their logical and analytical skills to figure out a hidden pattern of multi-colored balls by making a series of guesses. As the creator, I designed the gameplay to involve users submitting their guesses, receiving feedback on the accuracy of their attempts, and continuing to guess until they successfully crack the code. I hosted the game on a reliable server and skillfully implemented both client and server-side components, allowing users to enjoy multiple game attempts and a smooth gaming experience.",
         url: "#",  // url of the Github repository
         img: "assets/code-breaker-resize.jpg"  //image Project
     },
     {
         title: "PROJECT TITLE",
-        describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
+        describe: "Once upon a time, in a quaint little village nestled between the rolling hills and the sparkling river, there lived a peculiar old man named Archibald. Archibald was known far and wide for his collection of magical trinkets and his uncanny ability to communicate with the animals that roamed the surrounding forests. One fateful day, a wandering minstrel named Eloise stumbled upon Archibald's hidden abode and, captivated by his enchanting tales, decided to stay and learn from the wise old man. Together, they embarked on a thrilling adventure to retrieve the legendary Golden Acorn, a mythical treasure said to grant its possessor the power to control the very fabric of time. ",
         url: "#",
         img: "assets/project1.jpg"
     },
     {
         title: "PROJECT TITLE",
-        describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
+        describe: "In a faraway land, where the sun never set and the moon always shone brightly, there was a mystical forest inhabited by magical creatures and ruled by a wise and benevolent queen named Aurelia. One day, a young orphan boy named Jasper, who had been raised by a family of kind-hearted gnomes, discovered a hidden portal that led to this enchanted realm. Upon entering the forest, Jasper was greeted by a chorus of singing flowers and a friendly centaur named Thistle, who offered to be his guide through the magical land. As they journeyed deeper into the forest, Jasper and Thistle encountered a myriad of extraordinary beings, including a sassy talking cat named Whiskers, a lovable yet clumsy giant named Gulliver, and a mischievous fairy named Sparkle.",
         url: "#",
         img: "assets/project1.jpg"
     }

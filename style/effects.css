@@ -30,6 +30,7 @@ html {
   opacity: 1;
 }
 
+
 @keyframes bounce {
   40% {
     transform: translateY(-20px);
