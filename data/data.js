@@ -14,7 +14,7 @@ export const introductionData = {
             url: "https://www.linkedin.com/in/urmaysuthar/"
         },
         {
-            icon: "fa fa-github-alt",   // find other icon in https://fontawesome.com/v4.7/icons/
+            icon: "fa fa-github",   // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Github",
             url: "https://github.com/urmaysuthar"
         }
@@ -66,7 +66,7 @@ export const skillsData = [
         nameSkill: "Java"
     },
     {
-        img: "assets/python.svg",  // card image  > insert the svg image in the assets folder
+        img: "assets/python.svg",  
         nameSkill: "Python"      
     },
     {
@@ -108,7 +108,7 @@ export const projectsData = [
     {
         title: "Code Breaker Multiplayer Game",    // card image  > insert the svg image in the assets folder
         describe: "Code Breaker is an exciting and interactive web-based game that I developed as a project using advanced technologies such as HTML, CSS, JavaScript, and jQuery. The game invites players to use their logical and analytical skills to figure out a hidden pattern of multi-colored balls by making a series of guesses. As the creator, I designed the gameplay to involve users submitting their guesses, receiving feedback on the accuracy of their attempts, and continuing to guess until they successfully crack the code. I hosted the game on a reliable server and skillfully implemented both client and server-side components, allowing users to enjoy multiple game attempts and a smooth gaming experience.",
-        url: "#",  // url of the Github repository
+        url: "https://github.com/urmaysuthar/Code-Breaker",  // url of the Github repository
         img: "assets/code-breaker-resize.jpg"  //image Project
     },
     {
