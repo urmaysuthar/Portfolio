@@ -47,10 +47,10 @@ export const introductionData = {
 //                ABOUT ME
 //=========================================
 export const aboutMeData = {
-    title: "Example",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ratione harum sapiente ipsum maiores, blanditiis atque magni quam, quia quas hic deserunt rem aliquam. Error earum ab modi porro at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt veniam, eligendi modi similique tempore accusamus dolore, nobis non facilis quos veritatis officia eveniet molestias libero quisquam sed doloremque fugit!",
-    titleURL: "View CV",
-    urlCV: "#"
+    title: "About Me",
+    description: "Hello, my name is Urmay and I'm a Computer Science student that is interested in Software Engineering. I was drawn into this industry because I enjoy solving problems and making something tangible using code. So far, I've mastered a few programming languages, including Java, HTML, CSS, and JavaScript and more. Making CPU Algorithms is one of my favourite projects. It actually helped me improve my C abilities and challenged me to solve a problem using a new language. I'm constantly attempting to enhance my technical skills, and right now I'm concentrating on mastering the languages I know as well as learning new languages and frameworks.",
+    titleURL: "View Resume",
+    urlCV: "https://drive.google.com/file/d/156TI4vDFe2T8O8SB4h64OBsil6joBewQ/view?usp=share_link"
 }
 
 
@@ -104,7 +104,7 @@ export const projectsData = [
         title: "Code Breaker Multiplayer Game",    // card image  > insert the svg image in the assets folder
         describe: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendisquos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?",
         url: "#",  // url of the Github repository
-        img: "assets/code-breaker.jpg"  //image Project
+        img: "assets/code-breaker-resize.jpg"  //image Project
     },
     {
         title: "PROJECT TITLE",
