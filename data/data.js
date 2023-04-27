@@ -1,6 +1,6 @@
 
 export const introductionData = {
-    // Hi, my name is....
+    
     yourName: "Urmay Suthar", 
     socialNetwork: [
         {
@@ -48,7 +48,7 @@ export const introductionData = {
 //=========================================
 export const aboutMeData = {
     title: "About Me",
-    description: "Hello, my name is Urmay and I'm a Computer Science student that is interested in Software Engineering. I was drawn into this industry because I enjoy solving problems and making something tangible using code. So far, I've mastered a few programming languages, including Java, HTML, CSS, and JavaScript and more. Making CPU Algorithms is one of my favourite projects. It actually helped me improve my C abilities and challenged me to solve a problem using a new language. I'm constantly attempting to enhance my technical skills, and right now I'm concentrating on mastering the languages I know as well as learning new languages and frameworks.",
+    description: "Hey there! My name's Urmay, and I'm a self-proclaimed coding ninja on a mission to conquer the software engineering world! As a computer science student, I have a strong passion for problem-solving and crafting innovative, tangible solutions using my trusty keyboard. I've mastered a variety of programming languages, including Java, HTML, CSS, and JavaScript, to name a few. I'm always eager to expand my technical prowess, whether that means delving deeper into the languages I already know or exploring new languages and frameworks. If you're in search of a coding whiz with a genuine love for all things tech, look no further! I'm excited to collaborate and build something amazing together. Let's get started, shall we?",
     titleURL: "View Resume",
     urlCV: "https://drive.google.com/file/d/1L0lpXrSJ1Ke5IJjArao_TUtXVjW58Jk5/view?usp=share_link"
 }
@@ -96,6 +96,10 @@ export const skillsData = [
     {
         img: "assets/firebase-svgrepo-com.svg",
         nameSkill: "Firebase"
+    },
+    {
+        img: "assets/c++.svg",
+        nameSkill: "C++"
     }
     
 
@@ -106,10 +110,10 @@ export const skillsData = [
 //=========================================
 export const projectsData = [
     {
-        title: "Code Breaker Multiplayer Game",    // card image  > insert the svg image in the assets folder
+        title: "Code Breaker Multiplayer Game",    
         describe: "Code Breaker is an exciting and interactive web-based game that I developed as a project using advanced technologies such as HTML, CSS, JavaScript, and jQuery. The game invites players to use their logical and analytical skills to figure out a hidden pattern of multi-colored balls by making a series of guesses. As the creator, I designed the gameplay to involve users submitting their guesses, receiving feedback on the accuracy of their attempts, and continuing to guess until they successfully crack the code. I hosted the game on a reliable server and skillfully implemented both client and server-side components, allowing users to enjoy multiple game attempts and a smooth gaming experience.",
         url: "https://github.com/urmaysuthar/Code-Breaker",  // url of the Github repository
-        img: "assets/code-breaker-resize.jpg"  //image Project
+        img: "assets/code-breaker-resize.jpg"  
     },
     {
         title: "PROJECT TITLE",
