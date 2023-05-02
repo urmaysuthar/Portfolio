@@ -10,12 +10,13 @@ h1,h2,h3,p{
 }
 
 .section-style{
-    background-image: -webkit-linear-gradient(135deg, #43B7B8, #436AAC, #8929AD);
+   /* background-image: -webkit-linear-gradient(135deg, #43B7B8, #436AAC, #8929AD); */
+    background-image: -webkit-linear-gradient(135deg,  #AA96DA, #C5FAD5, #FFFFD2);
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom:10px;
     border-top: 0;
-    color: #fff;
+    color: #000000; /*could use white also */
 }
 
 .section-title{
@@ -64,7 +65,7 @@ View CV Button
 }
 
 .btn-cv {
-  	color: #fff;
+  	color: #272424; /*could use white also */
   	cursor: pointer;
   	display: block;
   	font-size:16px;
@@ -96,7 +97,7 @@ View CV Button
 
 .btn-1 rect {
     fill: none;
-    stroke: #fff;
+    stroke: #000000; /*could use white also */
     stroke-width: 2;
     stroke-dasharray: 422, 0;
     transition: all 0.35s linear;

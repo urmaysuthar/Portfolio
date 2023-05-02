@@ -52,7 +52,11 @@
   padding-top: 10px;
   text-transform: uppercase;
 }
-
+.project-informations h4 {
+  margin: 0.25 0;
+  font-size: 15px;
+  font-style: italic;
+}
 .project-informations p {
   font-size: 20px;
 }

@@ -129,6 +129,7 @@ function render() {
         <div class="project">
         <div class="project-informations" data-aos="fade-right">
             <h3>${data.title}</h3>
+            <h4>${data.tools}</h4>
             <p>${data.describe}</p>
 
             <!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
