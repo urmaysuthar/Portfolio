@@ -53,6 +53,7 @@
   text-transform: uppercase;
 }
 .project-informations h4 {
+  font-family: 'Roboto Mono', monospace;
   margin: 0.25 0;
   font-size: 15px;
   font-style: italic;
