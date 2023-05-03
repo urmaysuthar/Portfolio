@@ -53,9 +53,6 @@ export const aboutMeData = {
     urlCV: "https://drive.google.com/file/d/1L0lpXrSJ1Ke5IJjArao_TUtXVjW58Jk5/view?usp=share_link"
 }
 
-
-
-
 //=========================================
 //                 SKILLS 
 //=========================================
