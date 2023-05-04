@@ -50,7 +50,7 @@ export const aboutMeData = {
     title: "About Me",
     description: "Hey there! I'm Urmay, a warm and enthusiastic software developer who believes in the power of code to simplify and enrich our everyday experiences. As a computer science student, I have a strong passion for problem-solving and crafting innovative, tangible solutions using my trusty keyboard. I've mastered a variety of programming languages, including Java, HTML, CSS, and JavaScript, to name a few. I'm always eager to expand my technical prowess, whether that means delving deeper into the languages I already know or exploring new languages and frameworks. In pursuit of a capable coder with a heartfelt enthusiasm for the ever-changing tech landscape?, look no further! Beyond my technical expertise, I pride myself on being a natural leader with exceptional communication skills, making collaboration a breeze. Let's join forces and create something extraordinary together. Are you ready to embark on this exciting journey?",
     titleURL: "View Resume",
-    urlCV: "https://drive.google.com/file/d/1L0lpXrSJ1Ke5IJjArao_TUtXVjW58Jk5/view?usp=share_link"
+    urlCV: "https://drive.google.com/file/d/1o1C0QaxulDzq8ubVeWgE9V1UmYIMPL-Q/view?usp=sharing"
 }
 
 //=========================================
@@ -138,12 +138,12 @@ export const projectsData = [
         title: "Hotel Website",
         tools: "React, AWS, AWS Lambda, DynamoDB, JSON, ",
         describe: "In a faraway land, where the sun never set and the moon always shone brightly, there was a mystical forest inhabited by magical creatures and ruled by a wise and benevolent queen named Aurelia. One day, a young orphan boy named Jasper, who had been raised by a family of kind-hearted gnomes, discovered a hidden portal that led to this enchanted realm. Upon entering the forest, Jasper was greeted by a chorus of singing flowers and a friendly centaur named Thistle, who offered to be his guide through the magical land. As they journeyed deeper into the forest, Jasper and Thistle encountered a myriad of extraordinary beings, including a sassy talking cat named Whiskers, a lovable yet clumsy giant named Gulliver, and a mischievous fairy named Sparkle.",
-        url: "#",
+        url: "https://github.com/urmaysuthar/Landon-Hotel-Webapp/tree/master",
         img: "assets/landon.jpg"
     },
     {
         title: "Project",
-        tools: "Tools ",
+        tools: "Tools and Frameworks ",
         describe: "In a faraway land, where the sun never set and the moon always shone brightly, there was a mystical forest inhabited by magical creatures and ruled by a wise and benevolent queen named Aurelia. One day, a young orphan boy named Jasper, who had been raised by a family of kind-hearted gnomes, discovered a hidden portal that led to this enchanted realm. Upon entering the forest, Jasper was greeted by a chorus of singing flowers and a friendly centaur named Thistle, who offered to be his guide through the magical land. As they journeyed deeper into the forest, Jasper and Thistle encountered a myriad of extraordinary beings, including a sassy talking cat named Whiskers, a lovable yet clumsy giant named Gulliver, and a mischievous fairy named Sparkle.",
         url: "#",
         img: "assets/project1.jpg"
