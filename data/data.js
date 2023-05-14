@@ -4,17 +4,17 @@ export const introductionData = {
     yourName: "Urmay Suthar", 
     socialNetwork: [
         {
-            icon: "fa fa-envelope-o",  // find other icon in https://fontawesome.com/v4.7/icons/
+            svgPath: "assets/email.svg",  // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Email",  // label name
-            url: "https://mail.google.com/mail/?view=cm&source=mailto&to=[urmay.suthar0100@gmail.com]"  //  url of the Social Network
+            url: "mailto:urmay.suthar0100@gmail.com"  //  url of the Social Network
         },
         {
-            icon: "fa fa-linkedin-square", // find other icon in https://fontawesome.com/v4.7/icons/
+            svgPath: "assets/linkedin.svg", // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Linkedin",
             url: "https://www.linkedin.com/in/urmaysuthar/"
         },
         {
-            icon: "fa fa-github",   // find other icon in https://fontawesome.com/v4.7/icons/
+            svgPath: "assets/githubicon.svg",   // find other icon in https://fontawesome.com/v4.7/icons/
             nameSocialNetwork: "Github",
             url: "https://github.com/urmaysuthar"
         }

@@ -20,18 +20,17 @@ function render() {
     $windowNameApresentation.innerHTML = templateNameApresentation(introductionData.yourName)
 
 
-    //  TEMPLATE ICONS SOCIAL NETWORKS  <.header-icons>
+    // TEMPLATE ICONS SOCIAL NETWORKS <.header-icons>
     //---------------------------------------------------------
-    const templateSocialNetwors = function (data) {   // socialNetwork
+    const templateSocialNetwors = function (data) { // socialNetwork
         return `
         <a class="icon gradient fade" aria-label="${data.nameSocialNetwork}" target="_blank" href="${data.url}">
-        <i class="${data.icon}"></i>
-    </a>
-        `
-    }
-
-    const $windowIconSocialNetworks = document.querySelector(".header-icons")
-
+            <img src="${data.svgPath}" alt="${data.nameSocialNetwork} Icon" />
+        </a>
+        `;
+    };
+    
+    const $windowIconSocialNetworks = document.querySelector(".header-icons");
     $windowIconSocialNetworks.innerHTML = introductionData.socialNetwork.map((data) => {
         return templateSocialNetwors(data);
     }).join("");
