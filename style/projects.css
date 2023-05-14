@@ -48,15 +48,17 @@
 
 .project-informations h3 {
   margin: 0 0;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 10px;
   text-transform: uppercase;
+  
 }
 .project-informations h4 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Carlito', sans-serif;                                           
   margin: 0.25 0;
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
+  
 }
 .project-informations p {
   font-size: 20px;
