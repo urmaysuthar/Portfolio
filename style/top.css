@@ -95,6 +95,9 @@ h1 {
     font-size: 40px !important;
     margin-top: 90vh;
     z-index: 5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #top-button{
