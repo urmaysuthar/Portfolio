@@ -50,7 +50,7 @@ export const aboutMeData = {
     title: "About Me",
     description: "Hey there! I’m Urmay. I’m a third-year Computer Science student at York University. I was born and raised in the vibrant city of Nairobi, Kenya. I believe in the power of code to simplify and enrich our day-to-day lives. I’m passionate about Leadership, problem-solving and creating innovative solutions. I’ve developed skills in a variety of programming languages including Java, Python, JavaScript, C , C++ and more. I’m always eager to keep up with the ever-evolving world of technology and to expand on my technical prowess, whether that means delving deeper into the languages I already know or exploring new languages and frameworks. Beyond my technical skills, I pride myself on being a natural leader with exceptional communication skills, making collaboration a breeze. I am also passionate about sports, Football in particular which I often play at a competitive level. Let’s join forces and create something extraordinary together. Are you ready to embark on this exciting journey? ",
     titleURL: "View Resume",
-    urlCV: "https://drive.google.com/file/d/1kUPAin_xy5BSZaqCRY5xA-kgP3LM-gyv/view?usp=sharing"
+    urlCV: "https://drive.google.com/file/d/1FOHgnlqBc_qWK7o2nqVZM85arv_XuAqH/view?usp=sharing"
 }
 
 //=========================================
