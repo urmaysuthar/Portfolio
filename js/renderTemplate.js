@@ -1,66 +1,70 @@
-import { introductionData, skillsData,projectsData,aboutMeData } from '../data/data.js';
-
+import {
+  introductionData,
+  skillsData,
+  projectsData,
+  aboutMeData,
+} from "../data/data.js";
 
 function render() {
+  //=====================================================================
+  //                INTRODUCTION
+  //======================================================================
 
-    //=====================================================================
-    //                INTRODUCTION 
-    //======================================================================
-
-    // TEMPLATE YOURNAME <.header-apresentation>
-    //---------------------------------------------------
-    const templateNameApresentation = function (data) { //yourName
-        return `
+  const templateNameApresentation = function (data) {
+    //yourName
+    return `
     Hi, my name is <span class="gradient">${data}</span>
-    `
-    }
+    `;
+  };
 
-    const $windowNameApresentation = document.querySelector(".header-apresentation")
+  const $windowNameApresentation = document.querySelector(
+    ".header-apresentation"
+  );
 
-    $windowNameApresentation.innerHTML = templateNameApresentation(introductionData.yourName)
+  $windowNameApresentation.innerHTML = templateNameApresentation(
+    introductionData.yourName
+  );
 
-
-    // TEMPLATE ICONS SOCIAL NETWORKS <.header-icons>
-    //---------------------------------------------------------
-    const templateSocialNetwors = function (data) { // socialNetwork
-        return `
+  const templateSocialNetwors = function (data) {
+    // socialNetwork
+    return `
         <a class="icon gradient fade" aria-label="${data.nameSocialNetwork}" target="_blank" href="${data.url}">
             <img src="${data.svgPath}" alt="${data.nameSocialNetwork} Icon" />
         </a>
         `;
-    };
-    
-    const $windowIconSocialNetworks = document.querySelector(".header-icons");
-    $windowIconSocialNetworks.innerHTML = introductionData.socialNetwork.map((data) => {
-        return templateSocialNetwors(data);
-    }).join("");
+  };
 
+  const $windowIconSocialNetworks = document.querySelector(".header-icons");
+  $windowIconSocialNetworks.innerHTML = introductionData.socialNetwork
+    .map((data) => {
+      return templateSocialNetwors(data);
+    })
+    .join("");
 
-    //  TEMPLATE OPTIONS NAV  <.nav>
-    //---------------------------------------------------------
-
-    const templateNav = function (data) { // nav
-        return `
+  const templateNav = function (data) {
+    // nav
+    return `
         <a class="btn" href="#${data.idSection}">
         ${data.optionNav}
     </a>
-        `
-    }
+        `;
+  };
 
-    const $windowNav = document.querySelector(".nav")
+  const $windowNav = document.querySelector(".nav");
 
-    $windowNav.innerHTML = introductionData.nav.map((data) => {
-        return templateNav(data);
-    }).join("");
+  $windowNav.innerHTML = introductionData.nav
+    .map((data) => {
+      return templateNav(data);
+    })
+    .join("");
 
+  //==================================================
+  //                      ABOUT ME
+  //==================================================
 
-
-    //==================================================
-    //                      ABOUT ME
-    //==================================================
-
-    const templateAboutMe = function (data) {  //description
-        return `
+  const templateAboutMe = function (data) {
+    //description
+    return `
         <div class="container">
         <h2 class="section-title">${data.title}</h2>
 
@@ -82,49 +86,42 @@ function render() {
         </section>
     
     </div>
-        `
-    }
+        `;
+  };
 
-    const $windowAboutMe = document.querySelector(".section-style")
+  const $windowAboutMe = document.querySelector(".section-style");
 
-    $windowAboutMe.innerHTML = templateAboutMe(aboutMeData);
-  
+  $windowAboutMe.innerHTML = templateAboutMe(aboutMeData);
 
+  //==================================================
+  //                       SKILLS
+  //==================================================
 
-
-
-    //==================================================
-    //                       SKILLS
-    //==================================================
-
-    //  TEMPLATE SKILLS <.cards-main>
-    //---------------------------------------------------------
-    const templateSkills = function (data) {
-        return `
+  const templateSkills = function (data) {
+    return `
         <div class="card shadow">
         <div>
             <img class="img-card" src="${data.img}" alt="logo python">
             <p>${data.nameSkill}</p>
         </div>
     </div>
-        `
-    }
+        `;
+  };
 
-    const $windowSkills = document.querySelector(".cards-main")
+  const $windowSkills = document.querySelector(".cards-main");
 
-    $windowSkills.innerHTML = skillsData.map((data) => {
-        return templateSkills(data);
-    }).join("");
+  $windowSkills.innerHTML = skillsData
+    .map((data) => {
+      return templateSkills(data);
+    })
+    .join("");
 
+  //==================================================
+  //                    PROJECTS
+  //==================================================
 
- //==================================================
-    //                    PROJECTS
-    //==================================================
-
-    //  TEMPLATE PROJECTS  <.projects-main>
-    //---------------------------------------------------------
-    const templateProjects = function (data) {
-        return `
+  const templateProjects = function (data) {
+    return `
         <div class="project">
         <div class="project-informations" data-aos="fade-right">
             <h3>${data.title}</h3>
@@ -148,17 +145,16 @@ function render() {
             <img class="shadow" src="${data.img}" alt="code">
         </div>
     </div>
-        `
-    }
+        `;
+  };
 
-    const $windowProject = document.querySelector(".projects-main")
+  const $windowProject = document.querySelector(".projects-main");
 
-    $windowProject.innerHTML = projectsData.map((data) => {
-        return templateProjects(data);
-    }).join("");
-
-
+  $windowProject.innerHTML = projectsData
+    .map((data) => {
+      return templateProjects(data);
+    })
+    .join("");
 }
 
 render();
-
