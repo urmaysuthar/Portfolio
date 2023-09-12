@@ -103,12 +103,20 @@ export const skillsData = [
         nameSkill: "React"
     },
     {
+        img: "assets/node-js-svgrepo-com.svg",
+        nameSkill: "Node JS"
+    },
+    {
         img: "assets/aws.svg",
         nameSkill: "AWS"
     },
     {
         img: "assets/git-hub.svg",
         nameSkill: "Github"
+    },
+    {
+        img: "assets/figma-svgrepo-com.svg",
+        nameSkill: "Figma"
     }
 
     
@@ -119,9 +127,15 @@ export const skillsData = [
 //                PROJECTS
 //=========================================
 export const projectsData = [
-    
     {
-        title: "Realtime Chat WebApp",
+        title: "StepsGenerator.AI",
+        tools: "React, Tailwind CSS, Node.js, Express.js, OpenAI API, Figma ",
+        describe: "'Steps, The To-Do List Generator', was developed during the Ignitionhacks v4 2023 hackathon as a solution to the issue of wasted time and productivity due to excessive planning or uncertainty about where to start. Steps is an AI-powered application that provides users with a comprehensive guide for any task by simply asking the app what they need to do. The app then creates a prompt to generate a straightforward, easy-to-understand To-Do list. One of the key features of Steps is its ability to break down a large task into smaller, more manageable steps. ",
+        url: "https://github.com/Doodoal/Ignition-Hacks-2023",
+        img: "assets/Result.jpg"
+    },
+    {
+        title: "ChatHub",
         tools: "React, Firebase",
         describe: "Introducing my Real-Time Chat Application, a project I developed using React for the Frontend and Firebase for the Backend. This app showcases my skills in creating a seamless and user-friendly communication platform. I integrated Google authentication for user sign-in, ensuring a secure and convenient experience. Users can easily create or join chat rooms by simply entering a room name, allowing them to connect with others in real-time. To improve the user experience, I implemented cookies to store login information, enabling seamless navigation in case of page refreshes or tab switches. I also incorporated a sign-out feature to ensure user privacy and security. ",
         url: "https://github.com/urmaysuthar/React-Firebase-Realtime-Chat-App",
@@ -135,19 +149,13 @@ export const projectsData = [
         img: "assets/code-breaker-resize.jpg"  
     },
     {
-        title: "Hotel Website",
+        title: "Hotel Webapp",
         tools: "React, AWS, AWS Lambda, DynamoDB, JSON, ",
         describe: "Introducing my Hotel WebApp,  a user-friendly hotel booking platform developed using React for the Frontend and AWS services for the Backend. This project highlights my ability to create dynamic and responsive web applications using modern technologies. I leveraged React for efficient component loading, ensuring a seamless user experience, and hosted the app on AWS Amplify for reliable scalability. Data management was streamlined by replacing static data with JSON components and utilizing DynamoDB, a fast and flexible NoSQL database service. To ensure smooth communication between the Frontend and Backend, I integrated AWS Lambda functions with REST API Gateway. The Hotel WebApp offers users an effortless experience in searching for available rooms, viewing detailed information, and making reservations, all within a secure and high-performance platform.",
         url: "https://github.com/urmaysuthar/Landon-Hotel-Webapp/tree/master",
         img: "assets/landon.jpg"
     },
-    {
-        title: "Project",
-        tools: "Tools and Frameworks ",
-        describe: "In a faraway land, where the sun never set and the moon always shone brightly, there was a mystical forest inhabited by magical creatures and ruled by a wise and benevolent queen named Aurelia. One day, a young orphan boy named Jasper, who had been raised by a family of kind-hearted gnomes, discovered a hidden portal that led to this enchanted realm. Upon entering the forest, Jasper was greeted by a chorus of singing flowers and a friendly centaur named Thistle, who offered to be his guide through the magical land. As they journeyed deeper into the forest, Jasper and Thistle encountered a myriad of extraordinary beings, including a sassy talking cat named Whiskers, a lovable yet clumsy giant named Gulliver, and a mischievous fairy named Sparkle.",
-        url: "#",
-        img: "assets/project1.jpg"
-    }
+    
 ]
 
 
