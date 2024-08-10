@@ -1,0 +1,99 @@
+/* Work Experience section */
+.work-experience {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: -webkit-linear-gradient(135deg, #AA96DA, #C5FAD5, #FFFFD2);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-top: 0;
+    color: #000000;
+    overflow: hidden; /* Prevents content from overflowing */
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .line-tracker {
+    position: relative;
+    padding: 20px 0;
+    max-width: 100%; /* Ensure the line-tracker does not exceed container width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .line {
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    background-color: #000;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+  
+  .experience-item {
+    position: relative;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensure item takes full width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .experience-details {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 40px); /* Ensure it fits within container */
+    padding: 0 50px;
+    box-sizing: border-box; /* Include padding in total width */
+  }
+  
+  .experience-details .left,
+  .experience-details .right {
+    flex: 1;
+  }
+  
+  .experience-details .left {
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .experience-details .right {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .experience-details h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .period {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-top: 5px;
+  }
+  

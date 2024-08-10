@@ -19,10 +19,15 @@ export const introductionData = {
   ],
 
   // Page session direction
+  
   nav: [
     {
       optionNav: "About me",
       idSection: "about",
+    },
+    {
+      optionNav: "Goals and Reflections",
+      idSection: "goals-reflections",
     },
     {
       optionNav: "Skills",
@@ -42,10 +47,23 @@ export const aboutMeData = {
   title: "About Me",
   description:
     "Hey there! I’m Urmay. I’m a third-year Computer Science student at York University. I was born and raised in the vibrant city of Nairobi, Kenya. I believe in the power of technology to simplify and enrich our day-to-day lives. I’m passionate about Leadership, problem-solving and creating innovative solutions. I’ve developed skills in a variety of programming languages including Java, Python, JavaScript, C , C++ and more. I’m always eager to keep up with the ever-evolving world of technology and to expand on my technical expertise, whether that means delving deeper into the technology I already know or exploring new languages and frameworks.  ",
-  titleURL: "View Resume",
+  titleURL: "my Resume",
   urlCV:
     "https://drive.google.com/file/d/1FOHgnlqBc_qWK7o2nqVZM85arv_XuAqH/view?usp=sharing",
 };
+
+export const goalsAndReflectionsData = {
+  title: "Goals and Reflections",
+  description:
+    "<p>As I continue my journey through Computer Science, my main goal is to build on the solid foundation I’m creating at university. I’m eager to take what I’m learning and apply it in real life, much like I’m doing in my internship right now. I’m also looking to dive into new areas like Machine Learning, Analytics, and App Development. These are fields I’m excited to explore as I figure out the direction I want to take in my future career.</p>" +
+    "<p>Reflecting on my experiences, I’ve found great value in talking to the experienced professionals at my internship. These conversations often revolve around the key decisions they’ve made in their lives—their successes, their challenges, and sometimes the mistakes they’ve learned from. Listening to their stories helps me understand not just the kind of engineer I want to be, but the kind of person I want to become. It’s a way for me to gather insights, learn from their paths, and shape my own with more clarity and purpose.</p>",
+  titleURL: "Explore my Journey",
+  urlCV:
+    "https://drive.google.com/file/d/1FOHgnlqBc_qWK7o2nqVZM85arv_XuAqH/view?usp=sharing",
+};
+
+
+
 
 //=========================================
 //                 SKILLS
@@ -112,6 +130,26 @@ export const skillsData = [
     nameSkill: "Figma",
   },
 ];
+
+export const workExperienceData = [
+  {
+    name: "Hudsons Bay Company",
+    period: "Jul 2022 - Jan 2023",
+    description: "Stock Handler + Sales Associate for shoes."
+  },
+  {
+    name: "Ontario Power Generation",
+    period: "May 2024 - Present",
+    description: "Projects Design Intern with responsibilities to develop, maintain, and troubleshoot internal apps used by thousands of employees. Additionally, I am supporting on-going Nuclear projects ."
+  },
+  {
+    name: "Ontario Power Generation",
+    period: "May 2024 - Present",
+    description: "Currently working on enhancing app features and improving user experience in a fast-paced environment."
+  }
+];
+
+
 //=========================================
 //                PROJECTS
 //=========================================

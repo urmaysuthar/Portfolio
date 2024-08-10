@@ -3,6 +3,8 @@ import {
   skillsData,
   projectsData,
   aboutMeData,
+  goalsAndReflectionsData,
+  workExperienceData,
 } from "../data/data.js";
 
 function render() {
@@ -89,9 +91,27 @@ function render() {
         `;
   };
 
-  const $windowAboutMe = document.querySelector(".section-style");
-
+  const $windowAboutMe = document.querySelector("#about ~ .section-style");
   $windowAboutMe.innerHTML = templateAboutMe(aboutMeData);
+  
+
+
+  const templateGoalsAndReflections = function (data) {
+    //description
+    return `
+        <div class="container">
+            <h2 class="section-title">${data.title}</h2>
+
+            <div class="description">
+               <p>${data.description}</p>
+            </div>
+        </div>
+    `;
+};
+
+const $windowGoalsAndReflections = document.querySelector("#goals-reflections ~ .section-style");
+$windowGoalsAndReflections.innerHTML = templateGoalsAndReflections(goalsAndReflectionsData);
+
 
   //==================================================
   //                       SKILLS
@@ -116,6 +136,36 @@ function render() {
     })
     .join("");
 
+    const templateWorkExperience = function (data) {
+      const experiences = data.map((exp, index) => `
+        <div class="experience-item" style="top: ${index * 150}px;">
+          <div class="circle"></div>
+          <div class="experience-details">
+            <div class="left">
+              <h3>${exp.name}</h3>
+              <p class="period">${exp.period}</p>
+            </div>
+            <div class="right">
+              <p class="description">${exp.description}</p>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    
+      return `
+        <div class="work-experience">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="line-tracker">
+            <div class="line"></div>
+            ${experiences}
+          </div>
+        </div>
+      `;
+    };
+    
+    const $windowWorkExperience = document.querySelector("#work-experience-section");
+    $windowWorkExperience.innerHTML = templateWorkExperience(workExperienceData);
+         
   //==================================================
   //                    PROJECTS
   //==================================================
