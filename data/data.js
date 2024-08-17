@@ -135,7 +135,7 @@ export const workExperienceData = [
   {
     name: "Hudsons Bay Company",
     period: "Jul 2022 - Jan 2023",
-    description: "Stock Handler + Sales Associate for shoes."
+    description: "Stock Handler and Sales Associate. Working at Hudson’s Bay taught me a lot about working with others and staying patient, especially during busy times. Whether I was organizing stock or helping customers find the right shoes, I realized how important even the small tasks are in making things run smoothly."
   },
   {
     name: "Ontario Power Generation",
