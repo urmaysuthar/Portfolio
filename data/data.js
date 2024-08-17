@@ -34,6 +34,10 @@ export const introductionData = {
       idSection: "skills",
     },
     {
+      optionNav: "Work Experience",
+      idSection: "work-experience",
+    },
+    {
       optionNav: "Projects",
       idSection: "projects",
     },
@@ -143,9 +147,9 @@ export const workExperienceData = [
     description: "In my internship, I focus on two key areas. First, I develop and update internal apps that thousands of employees depend on daily. I ensure these apps run smoothly and resolve any bugs since they handle critical data. Second, I support ongoing nuclear projects, contributing to essential tasks as part of the project team.."
   },
   {
-    name: "Ontario Power Generation",
+    name: "Place Holder",
     period: "May 2024 - Present",
-    description: "Currently working on enhancing app features and improving user experience in a fast-paced environment."
+    description: "Currently working on ...."
   }
 ];
 
