@@ -140,7 +140,7 @@ export const workExperienceData = [
   {
     name: "Ontario Power Generation",
     period: "May 2024 - Present",
-    description: "Projects Design Intern with responsibilities to develop, maintain, and troubleshoot internal apps used by thousands of employees. Additionally, I am supporting on-going Nuclear projects ."
+    description: "In my internship, I focus on two key areas. First, I develop and update internal apps that thousands of employees depend on daily. I ensure these apps run smoothly and resolve any bugs since they handle critical data. Second, I support ongoing nuclear projects, contributing to essential tasks as part of the project team.."
   },
   {
     name: "Ontario Power Generation",
